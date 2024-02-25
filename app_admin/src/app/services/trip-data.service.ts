@@ -11,8 +11,8 @@ export class TripDataService {
   constructor(private http: Http,
     @Inject(BROWSER_STORAGE) private storage: Storage) { }
 
-  private apiBaseUrl = 'http://localhost:3000/api/';
-  private tripUrl = `${this.apiBaseUrl}trips/`;
+  private apiBaseUrl = 'http://localhost:4200/api';
+  private tripUrl = `${this.apiBaseUrl}/trips/`;
 
   public addTrip(formData: Trip): Promise<Trip> {
     console.log('Inside TripDataServe#addTrip');
@@ -70,6 +70,6 @@ export class TripDataService {
    .then(response => response.json() as AuthResponse)
    .catch(this.handleError);
   }
-   
+
 
 }

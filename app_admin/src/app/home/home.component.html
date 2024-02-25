@@ -1,1 +1,5 @@
-<div class="container" *ngIf="!isLoggedIn()">Please login to continue</div> 
+<div class="container">
+    <div *ngIf="!isLoggedIn()">Please login to continue</div>
+    <!-- Add the <app-login> selector here -->
+    <app-login></app-login>
+</div>
