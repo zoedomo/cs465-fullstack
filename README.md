@@ -1,6 +1,8 @@
 # cs465-fullstack
 CS-465 Full Stack Development with MEAN
 
+# FINAL PROJECT IS ON MODULE7 BRANCH
+
 **Architecture**
 
 In our full stack project, we used different frontend development approaches, including Express HTML for server-side rendering and Angular for building a single-page application (SPA). Express HTML was used for rendering dynamic content on the server-side, while Angular provided a more interactive user experience on the client-side. The difference is in the traditional approach of server-side rendering with Express HTML versus the modern approach of client-side rendering with Angular. The backend utilized a NoSQL MongoDB database due to its flexibility and scalability. NoSQL databases are suitable for handling unstructured data, making them ideal for web applications where data formats may differ.
